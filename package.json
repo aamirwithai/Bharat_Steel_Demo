@@ -1,0 +1,19 @@
+{
+  "name": "bharat-steel-inventory",
+  "version": "1.0.0",
+  "description": "Local perpetual inventory system for Bharat Steel",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node src/tests.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bwip-js": "^4.5.1",
+    "better-sqlite3": "^11.7.0",
+    "connect-sqlite3": "^0.9.15",
+    "csv-parse": "^5.5.6",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
